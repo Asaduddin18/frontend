@@ -9,6 +9,9 @@ const Home = () => {
   const navigateToday1=()=>{
     navigate('/day1')
   }
+  const navigateToday3=()=>{
+    navigate('/day3')
+  }
   return (
     <>
     
@@ -25,6 +28,7 @@ const Home = () => {
   
   <button onClick={navigateToday1}>Day1</button>
      <button onClick={navigateToDay2}>Day2</button>
+     <button onClick={navigateToday3}>Day3</button>
     </div>
     
     </>
